@@ -1,0 +1,27 @@
+{
+  "name": "gulp-void",
+  "version": "0.1.0",
+  "description": "A Gulp-compatible wrapper around Void, which intelligently invalidates your AWS CloudFront cache.",
+  "main": "lib/gulp-void.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:edj-boston/gulp-void.git"
+  },
+  "keywords": [
+    "gulp",
+    "void",
+    "AWS",
+    "CloufFront",
+    "cache",
+    "invalidation"
+  ],
+  "author": "Eric Johnson <edj.boston@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/edj-boston/gulp-void/issues"
+  },
+  "homepage": "https://github.com/edj-boston/gulp-void"
+}
