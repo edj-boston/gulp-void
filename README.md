@@ -1,7 +1,7 @@
 Gulp Void [![Build Status](https://travis-ci.org/edj-boston/gulp-void.svg?branch=master)](https://travis-ci.org/edj-boston/gulp-void) [![Dependency Status](https://david-dm.org/edj-boston/gulp-void.svg)](https://david-dm.org/edj-boston/gulp-void) [![devDependency Status](https://david-dm.org/edj-boston/gulp-void/dev-status.svg)](https://david-dm.org/edj-boston/gulp-void#info=devDependencies)
 =========
 
-A Gulp-compatible wrapper around Void, which intelligently invalidates your AWS CloudFront cache
+A Gulp-compatible wrapper around Void, which intelligently invalidates your AWS CloudFront cache.
 
 Install
 -------
@@ -23,8 +23,8 @@ Navigate to the git repo director and run the default `gulp` task:
 var gulpVoid = require('gulp-void');
 
 gulp.task('invalidate', function() {
-	gulp.src()
-		pipe(gulpVoid());
+	gulp.src('build/static')
+		.pipe(gulpVoid());
 });
 ```
 
