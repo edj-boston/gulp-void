@@ -23,5 +23,10 @@
   "bugs": {
     "url": "https://github.com/edj-boston/gulp-void/issues"
   },
-  "homepage": "https://github.com/edj-boston/gulp-void"
+  "homepage": "https://github.com/edj-boston/gulp-void",
+  "devDependencies": {
+    "istanbul": "^0.4.0",
+    "mocha": "^2.3.4",
+    "should": "^7.1.1"
+  }
 }
