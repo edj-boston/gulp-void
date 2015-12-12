@@ -17,7 +17,7 @@ Follow the [installation instructions](https://github.com/edj-boston/void) in th
 Usage
 ---
 
-Navigate to the git repo director and run the default `gulp` task:
+Navigate to the git repo directory and run the default `gulp` task:
 
 ```js
 var gulpVoid = require('gulp-void');
